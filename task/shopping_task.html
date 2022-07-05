@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./shopping_task.css" rel="stylesheet" type="text/css">
+    <script defer src="./shopping_task.js"></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="closeBtn" class="closebtn">&times;</a>
+        <a href="#">음식</a>
+        <a href="#">가전</a>
+        <a href="#">가구</a>
+        <a href="#">캠핑용품</a>
+    </div>
+    <span id="openBtn" class="openbtn">&#9776; open</span>
+
+    <div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="../img/js1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="../img/js2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="../img/js3.jpg" style="width:100%">
+            </div>
+            
+            <a id="prevBtn" class="prev">❮</a>
+            <a id="nextBtn" class="next">❯</a>
+        </div>
+        <form class="form">
+            <fieldset>
+                <legend>상세정보</legend>
+                <div>알프랑 그늘막 팝업 스피드 원터치 텐트</div>
+                <button class="accordion">판매자 정보</button>
+                <div class="panel">
+                    <p>금오공과대학교<br>소프트웨어공학과<br>김아무개</p>
+                </div>
+                <button class="accordion">상품 정보</button>
+                <div class="panel">
+                    <p>최신 텐트<br>원터치<br>방수</p>
+                </div>
+                <button class="accordion">주문 정보</button>
+                <div class="panel">
+                    <select id="select">
+                        <option selected disabled>선택</option>
+                        <option id='A' value="A. 스피드 원터치 팝업텐트(3~4인용)"> A. 스피드 원터치 팝업텐트(3~4인용)</option>
+                        <option id='B' value="B. 5초 원터치 텐트(3인용) (+10,000원)"> B. 5초 원터치 텐트(3인용) (+10,000원)</option>
+                        <option id='C 'value="C. 5초 원터치 텐트(5인용) (+20,000원)"> C. 5초 원터치 텐트(5인용) (+20,000원)</option>
+                    </select>
+                    <ol id="itemList">
+                    </ol>
+                </div>
+            </fieldset>
+                <div id="total"></div>
+                <input class="sub" type="submit" value="구매하기">
+        </form>
+    </div>
+</body>
+</html>

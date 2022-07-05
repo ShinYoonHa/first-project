@@ -1,0 +1,5 @@
+.name-label::after {
+    display: inline-block;
+    content:"*";
+    color: red;
+}

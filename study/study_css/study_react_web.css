@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; /*최대 이만큼, 아무리 작아도 이정도는 돼야함*/
+    margin: 0 auto;
+}
+
+.flex-item {
+    height: 150px;
+}
+
+@media (min-width: 800px) {
+    .flex-container {
+        flex-direction : row;
+    }
+    .flex-item {
+        width: 33%;
+        height: 300px;
+    }
+}

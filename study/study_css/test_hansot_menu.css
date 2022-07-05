@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    height: 90px;
+}
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color:#f6ca00;
+    font-weight: 700;
+}
+
+li {
+    display: inline-block;
+    float: left;
+}
+.hd_content{
+    height: 100%;
+    border: 1px solid black;
+}
+
+.hd_fixed {
+    height: 90px;
+    border: 1px solid black;
+
+}
+
+.logo, .gnb_menu{
+    display: inline-block;
+    
+}
+.logo{
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 130px;
+}
+.gnb_menu {
+    vertical-align: top;
+}

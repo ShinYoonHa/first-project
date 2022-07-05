@@ -1,0 +1,242 @@
+.main_cont_1 {
+    margin-top: 60px;
+}
+.main_cont_wrap {
+    max-width:1170px; width:100%;
+    margin:0 auto; overflow: hidden;
+}
+.main_sc { /*main_sc 1st와 main_sc 2nd에 모두적용*/
+    position:relative; float:left; box-sizing: border-box;
+    background-color: #eeecec; border-bottom:6px solid #373737;
+}
+.main_cont_1 .main_link {
+    position: absolute; left: 0; top: 0; display: block; width: 100%; height: 100%;
+    background-color: #ddd; opacity: 0; z-index:3;
+}
+.main_img {width:100%; /*height:354px; */display:block; overflow: hidden;}
+.main_img img {width: 100%;}
+figcaption {padding:25px 25px 0 25px; box-sizing: border-box; font-weight:bold;}
+.main_txt {line-height:140%;}
+.main_small_txt {
+    position:absolute; left:25px; bottom:27px; text-align:right; display:block;
+    font-size:13px; color:#5c5953; margin-left:25px;
+}
+.main_small_txt:before {
+    content: ''; position:absolute; left:0; top:0; display: inline-block;
+    margin-left:-25px; width:20px; height:20px; background: url(../img/btn_link.png);
+    background-size: 40px 20px;
+}
+.main_sc {width:570px; height:524px; box-sizing: border-box;}
+.main_sc.st {margin-right:30px;}
+
+.main_cont_2 {
+    margin-top: 60px;
+}
+.caption {
+    display: block;
+}
+
+.main_cont_2 .sub_intro {
+    width: 370px;
+    height: 440px;
+    background-color: #f6ca00;
+    padding: 45px 30px 0 30px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 30px;
+}
+.sub_txt {
+    font-size: 36px;
+}
+
+.sub_small_txt:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: #373737;
+    margin-bottom: 15px;
+}
+
+.main_cont_2 .main_sc {
+    width: 370px;
+    height: 440px;
+}
+.main_cont_2 .main_wrap{
+    margin:0;
+}
+
+.main_cont_2 .main_link {
+    position: absolute; left: 0; top: 0; display: block; width: 100%; height: 100%;
+    background-color: #ddd; opacity: 0; z-index:1;
+}
+@media all and (max-width:1190px) {
+    .main_cont_1 .main_cont_wrap .main_sc {width:48%; min-height:290px; height:auto; margin:0 1%;}
+	.main_cont_1 .main_cont_wrap .main_sc.st {margin:0 1%;}
+	.main_cont_2 .main_cont_wrap .main_sc {width: 32.9%;}
+    .main_cont_4 .main_cont_wrap .area_sc:after {display:none;}
+	.main_cont_4 .area_sc figure.sc_wrap figcaption p.sc_tit span.s_block {display:inline;}
+	.main_cont_4 .area_sc.on figure.sc_wrap figcaption {border-bottom:0;}
+	.main_cont_4 .area_sc.on figure.sc_wrap figcaption:after {display:none;}
+}
+
+.main_cont_3 .main_cont_wrap {
+    background-color: #373737;
+    opacity: 0.9;
+    width: 370px;
+    height: 600px;
+    float: left;
+    padding: 45px 30px 0 30px;
+}
+
+.main_cont_3 {
+    margin-top: 60px;
+}
+
+.main_cont_wrap .caption {
+    font-size: 15px;
+}
+
+.main_cont_3 {position:relative; overflow: hidden; width:100%; height:600px;}
+.main_cont_3 .main_hansot {height:600px;}
+.main_cont_3 .main_hansot_bg {z-index:0; width:100%; height:600px;
+    position:absolute; left:0; top:0; width:100%;
+    background: url(../img/hansot5.jpg);
+    background-size: cover; 	
+	background-position:center;
+}
+
+.main_cont_3 .main_hansot .main_cont_wrap {
+    height:600px; box-sizing: border-box;
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 400px;
+}
+.main_cont_3 .main_hansot .main_cont_wrap .main_info {
+    position:relative; width:370px; height:100%; padding:80px 25px 60px 0;
+    color:#fff; box-sizing: border-box; margin:0; z-index:1;
+}
+.main_cont_3 .main_hansot .main_cont_wrap .main_info:after {
+    content: ''; display:block; position:absolute; left:0; top:0; box-sizing: border-box;
+    width:370px; height:600px; background-color: #373737; opacity: 0.9;
+}
+.main_cont_3 .main_hansot .main_cont_wrap .main_info .h2_info {
+    position:relative;  z-index:1;
+}
+.main_cont_3 .main_hansot .main_cont_wrap .main_info .info_tit {
+    position:relative; margin-top:35px; line-height:190%; z-index:1;
+    color:#dad8d8;
+}
+.main_cont_3 .main_hansot .main_cont_wrap .main_info .info_tit:before {
+    content: ''; display:block; width:40px; height:4px;
+    background-color: #fff; margin-bottom:17px;
+}
+
+.main_cont_3 .btn_wrap {position:relative; z-index:1;}
+.main_cont_3 .btn_wrap .btn_btn_1 {
+    margin:100px 0 0 0;
+    width: 170px;
+}
+
+.btn_btn_1 a {
+    display: block;
+    padding: 20px 0;
+    min-height: 60px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.main_cont_3 .h2_info .caption{
+    font-size : 30px;
+}
+
+.main_cont_4 {
+    position:relative;
+    margin-top:60px;
+}
+.main_cont_4 .main_cont_wrap {
+    max-width:1170px; width:100%;
+    margin:0; overflow: hidden;
+    position:relative; width:100%; margin:0; overflow: hidden;
+}
+
+.main_cont_4 .sc_link{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 1;
+}
+.main_cont_4 .main_cont_wrap .area_sc {border:0; float:none;}
+.main_cont_4 .main_cont_wrap .area_sc:after {display:none;}
+.main_cont_4 figure.sc_wrap {position:relative; width:100%; overflow: hidden;}
+.main_cont_4 figure.sc_wrap span.sc_img,
+.main_cont_4 figure.sc_wrap figcaption {float:left; height:450px; background-color: #eeecec;}
+.main_cont_4 figure.sc_wrap span.sc_img {width:800px; height:450px; overflow: hidden;}
+.main_cont_4 figure.sc_wrap figcaption {position:relative; width:370px; padding:43px 22px 0 26px; box-sizing: border-box; border-bottom:6px solid #373737; box-sizing: border-box;}
+.main_cont_4 .area_sc figure.sc_wrap figcaption h2.h2_mt {line-height:135%; font-weight:800;}
+.main_cont_4 .area_sc figure.sc_wrap figcaption p.sc_tit {position:relative; color:#333; line-height:160%; margin-top:33px; font-weight: normal;}
+.main_cont_4 .area_sc figure.sc_wrap figcaption p.sc_tit:before {content: ''; display:block; width:40px; height:4px; background-color:#373737; margin-bottom:16px;}
+
+
+@media all and (max-width:414px){
+	/*main_cont_01*/
+	.main_cont_1 .main_cont_wrap {min-width:320px; padding:0 15px; box-sizing: border-box;}
+	.main_cont_1 .main_cont_wrap .main_sc {width:100%; margin:0;}
+	.main_cont_1 .main_cont_wrap .main_sc.st {margin:0 0 20px 0;}
+
+	/*main_cont_02*/
+	.main_cont_2 .main_cont_wrap .sub_intro {height:450px;}
+	.main_cont_2 .main_cont_wrap .sub_menu {padding:0 15px; width:100%; box-sizing: border-box;}
+	.main_cont_2 .main_cont_wrap .sub_menu .main_sc {float:none; width:100%; margin:20px 0 0 0;}
+	.main_cont_2 .main_cont_wrap .main_sc.st {margin:-117px 0 0 0;}
+	.main_cont_2 .main_cont_wrap .main_sc figcaption p.main_txt {height:100px;}
+	.main_cont_2 .main_cont_wrap .main_sc figcaption p.main_txt span.main_small_txt {display:block;}
+
+	/*main_cont_03*/
+	.main_cont_3 .main_hansot .main_cont_wrap .main_info {padding:80px 20px 60px 20px;}
+	.main_cont_3 .main_hansot .main_cont_wrap .main_info .info_tit span {display:inline;}
+	.main_cont_3 .btn_wrap {width:170px;}
+}
+
+@media all and (max-width:768px){
+
+	.main_cont_1 .main_cont_wrap .area_sc figcaption p.sc_tit span.caption {display:inline;}
+
+	.main_cont_2 .main_cont_wrap {max-width:640px;}
+	.main_cont_2 .main_cont_wrap .main_intro {
+        width:100%; float:none; padding: 40px 15px 0 15px; margin:0; height:300px;}
+	.main_cont_2 .main_cont_wrap .main_intro .int_tit span.caption {display:block;}
+	.main_cont_2 .main_cont_wrap .area_sc {width:49%; margin:2% 0 0 1%; height:350px;}
+	.main_cont_2 .main_cont_wrap .area_sc.st {margin: 2% 1% 0 0;}
+	.main_cont_2 .main_cont_wrap .area_sc figcaption {padding:20px;}
+	.main_cont_2 .main_cont_wrap .area_sc figcaption p.main_txt {height:75px;}
+	.main_cont_2 .main_cont_wrap .area_sc figcaption p.main_txt span.caption {
+        display:inline;}
+
+	.main_cont_3 {height:550px;}
+	.main_cont_3 .main_hansot .main_cont_wrap {height:550px;}
+	.main_cont_3 .main_hansot .main_cont_wrap .main_info {
+        width:94%; height:480px; margin:35px auto 35px auto;
+        padding:50px 20px 40px 20px; box-sizing: border-box;}
+	.main_cont_3 .main_hansot .main_cont_wrap .main_info:after {
+        content: ''; width:auto; height:auto; left:0; right:0; top:0; bottom:0;}
+	.main_cont_3 .btn_wrap .btn_btn1 {margin:46px 0 0 0;}
+	
+	.main_cont_4 .main_cont_wrap {max-width:640px;}
+	.main_cont_4 figure.sc_wrap span.sc_img,
+	.main_cont_4 figure.sc_wrap figcaption {float:none; height:auto;}
+	.main_cont_4 figure.sc_wrap span.sc_img {width:640px; height:auto;}
+	.main_cont_4 .main_cont_wrap .area_sc span.sc_img img {width:100%; height:auto;}
+	.main_cont_4 figure.sc_wrap figcaption {width:100%;}
+	.main_cont_4 figure.sc_wrap figcaption p.sc_tit {padding:0 20px 90px 0;}
+
+}

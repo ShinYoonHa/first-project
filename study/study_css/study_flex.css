@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    width: 800px;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.item{
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+
+.layout{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.flexbox {
+    background-color: #969696ad;
+    display: flex;
+    gap:0;
+    padding:10px;
+}
+
+.element{
+    min-height: 100px;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+
+.element:nth-child(1) {
+    background-color: red;
+    flex-shrink: 1;
+}
+.element:nth-child(2) {
+    background-color: yellow;
+}
+.element:nth-child(3) {
+    background-color:green;
+    flex-shrink: 1;
+}
+.element:nth-child(4) {
+    background-color: blue;
+    flex-shrink: 2;
+}

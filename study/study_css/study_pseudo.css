@@ -1,0 +1,42 @@
+table tr:nth-child(2n+1) {
+    height: 50px;
+    vertical-align: bottom;
+    background: lightgray;
+    color : yellow;
+}
+table tr:last-child {
+    background-color: aqua;
+    color : darkblue;
+    font-size : 4rem;
+}
+*{
+    margin : 0;
+}
+
+div:nth-child(4) {
+    background-color : rgb(255, 0, 0, 0.3);
+}
+.box {
+    width: 70px;
+    height: 70px;
+    border : 1px solid black;
+    text-align: center;
+}
+p {
+    width:70px;
+    height: 70px;
+    border: 1px solid black;
+    text-align: center;
+}
+body{
+    font-family : "궁서"
+}
+
+a span.accent {
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.movie {
+    list-style-type:upper-roman;
+}

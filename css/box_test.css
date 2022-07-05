@@ -1,0 +1,22 @@
+body{
+    border:1px solid black;
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+div.box1{
+    background-color:red;
+    top:100%;
+}
+div.box2 {
+    background-color:yellow;
+}
+
+.container{
+    width: 500px;
+    max-width: 800px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}

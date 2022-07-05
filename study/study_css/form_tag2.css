@@ -1,0 +1,13 @@
+.required:after {
+    content:"*";
+    color:red;
+}
+
+article::before {
+    content: attr(data-parent);
+}
+
+#butt {
+    position: absolute;
+    left: 100px;
+}

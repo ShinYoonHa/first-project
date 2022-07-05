@@ -1,0 +1,9 @@
+.carousel{
+    width: 1600px;
+    height: 700px;
+    background-image: url(../img/jokbal.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+}

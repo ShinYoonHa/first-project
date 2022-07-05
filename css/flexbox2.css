@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+  }
+.outer{
+  display: flex;
+}
+  
+.item {
+   background-color: aquamarine;
+   border: 2px solid black;
+   font-size: 2rem;
+   flex-basis : 100px;
+   word-wrap: break-word;
+}
+.item:nth-child(1) { flex-grow: 1; }
+.item:nth-child(2) { flex-grow: 2; }
+.item:nth-child(3) { flex-grow: 1; }

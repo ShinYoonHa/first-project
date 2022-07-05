@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    transform: translateX(200px);
+    transition: background-color 2s ease-in;
+}
+
+.box:hover {
+    width: 600px;
+    background-color: gold;
+}
+
+/*나시고랭*/
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 270px;
+  height: 335px;
+  background-color: #ddd;
+}
+
+.item-img {
+    overflow: hidden;
+}
+
+.container .item-img img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    transition-duration: 1s;
+}
+
+.container .item-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.item-img img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*더보기 표시*/
+.btn_wrap {
+    width: 400px;
+    height: 100px;
+    border: 3px solid salmon;
+    position: relative;
+    margin: 100px auto;
+}
+
+.gage {
+    position: absolute;
+    background-color: salmon;
+    width: 0;
+    height: 100%;
+    transition: width 1s;
+}
+
+.btn_wrap h3 {
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    width: 100%;
+}
+
+.btn_wrap:hover .gage{
+    width: 100%;
+}

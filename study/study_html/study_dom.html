@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study_dom</title>
+    <script defer src="../study_js/study_dom.js"></script>
+    <link href="../study_css/study_dom.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="menu-box">
+        <p>메뉴</p>
+        <ul id="menu-ul">
+            <li class="ice-menu" onclick="write1('커피')">커피</li>
+            <li class="ice-menu" onclick="write1('밀크티')">밀크티</li>
+            <li class="hot-menu" onclick="write1('녹차')">녹차</li>
+        </ul>
+    </div>
+    <p id="demo"></p>
+    <div class="buttons">
+        <button onclick="addText()">음료선택</button>
+        <button onclick="menuTemp()">음료색상 표시</button>
+        <button onclick="menuTempClear()">음료색상 표시해제</button>
+        <button onclick="hideMenu()">숨기기</button>
+
+        <p>메뉴선택</p>
+        <input class="select" type="text" width="100"/>
+        <button onclick="popupSelected()">메뉴선택</button>
+        <button onclick="fontSizeUp()">폰트키우기</button>
+    </div>
+    <br>
+    <input id="button" type="button" value="go!">
+    <a id="anchor">컴소공</a>
+
+    <h1>Hello World</h1>
+    <h1>Hello JS</h1>
+    <button onclick="myFunction()">Try it</button>
+    <br>
+
+    <h2 id="classModi" class="first">abc<h2>
+</body>
+</html>

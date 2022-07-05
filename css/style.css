@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding : 0;
+}
+
+/*ul{
+    color : red;
+    list-style-type : square;
+  }
+*/
+h2{
+    color : green;
+}
+
+/*p{
+  font-size : 12px;
+  margin-left : 20px;
+}
+*/
+.bluetext{
+  color : blue;
+}
+
+#skytext{
+  color: skyblue;
+}
+
+h1 { color:blue;}
+#title_text{ color:green; } /* 글자색 */
+.heading { color:red; /* 글자색 */ }
+
+ul { color:red; /* 글자색 */ }	
+ul { color:darkorange; /* 글자색 */ }
+
+#container >ul{
+  border : 1px dotted purple;
+}
+
+a:hover[href]{
+  color : red;
+  background-color : yellow;
+}
+
+input:focus{
+  background-color :rgb(198, 240, 226);
+}

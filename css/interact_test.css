@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 270px;
+  height: 335px;
+  background-color: #ddd;
+}
+.container .item-img img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  transition-duration: 1s;
+}
+
+.container .item-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.item-img {
+    overflow: hidden;
+}
+
+
+.item-img img:hover{
+    transform: scale(1.05);
+}

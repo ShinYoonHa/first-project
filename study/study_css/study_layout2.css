@@ -1,0 +1,36 @@
+/*.float-container {
+    width: 400px;
+    border: 2px solid #09c;
+}
+
+.float-container img {
+    float: right;
+    width : 250px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #90c;
+}*/
+body{
+    border: 1px solid black;
+}
+div {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
+div.box1 {
+    background-color: red;
+    position: absolute;
+    top: 250px;
+}
+div.box2 {
+    background-color: yellow;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    position: relative;
+    top: 50px;
+}

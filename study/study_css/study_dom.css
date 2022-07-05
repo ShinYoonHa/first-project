@@ -1,0 +1,15 @@
+.header-text {
+    color : red;
+    font-size : 32px;
+    font-weight: 600;
+}
+
+.body-text{
+    color: blue;
+    font-size: 20px;
+}
+
+.middle {
+    color: salmon;
+    font-size: 30px;
+}

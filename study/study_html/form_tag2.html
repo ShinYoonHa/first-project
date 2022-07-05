@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../study_css/form_tag2.css" rel="stylesheet" type="text/css"> 
+    <script defer src="../study_js/form_tag2.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>소프트웨어공학과 졸업여행</legend>
+        <input type="radio" name="site" id="jeju" value="jeju"><label for="jeju">제주도</label>
+        <input type="radio" name="site" id="gemuo" value="gemuo"><label for="gemuo">금오산</label>
+        <input type="radio" name="site" id="danang" value="danang"><label for="danang">다낭</label>
+    </fieldset>
+    <fieldset>
+        <legend>저녁메뉴는?</legend>
+        <input type="checkbox" name="dinner" id="dinner1" value="dinner1"><label for="dinner1">소고기</label>
+        <input type="checkbox" name="dinner" id="dinner2" value="dinner2"><label for="dinner2">보쌈</label>
+        <input type="checkbox" name="dinner" id="dinner3" value="dinner3"><label for="dinner3">김치찌개</label>
+    </fieldset>
+    <br>
+    <form action="register.php" method="post">
+        <label>메일 주소 <input type="text"></label>
+        <input type="submit" value="제출">
+        <input type="reset" value ="다시입력">
+    </form>
+    <form>
+        <label>아이디 <input type="text" size="15"></label>
+        <label>비밀번호 <input id='wrap' type="password" size="15"></label>
+        <input type="image" id="butt" src="../../img/login.jpg" alt="login">
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>신청자</legend>
+            <div>
+                <label>이름 <input type="text" required></label>
+                <input type="submit">
+            </div>
+            <div>
+                <label>학번 <input type="text" required autofocus placeholder="공백없이 입력"></label>
+            </div>
+            <div>
+                <label>학과 <input type="text" value="컴퓨터소프트웨어공학과"></label>
+            </div>
+            <div>
+                <label>정보 <input type="text" readonly value="가나다라마바사"></label>
+            </div>
+        </fieldset>
+        <br>
+    </form>
+    <form>
+        <select id="class">
+            <optgroup label="디지털관">
+                <option value="ai">인공지능공학과</option>
+                <option value="indust" selected>컴퓨터소프트웨어공학과</option>
+                <option value="elec">전자공학부</option>
+            </optgroup>
+            <optgroup label="테크노관">
+                <option value="mechanic">기계공학과</option>
+                <option value="material">신소재공학부</option>
+                <option value="chemical">화학소재융학부</option>
+            </optgroup>
+        </select>
+    </form>
+    <br>
+    <form action="/example/media/action_target.php" name="loginform">
+        이름 : <input type="text" name="st_name"><br>
+        학번 : <input type="text" name="st_num"><br>
+        학과 : <input type="text" name="department"><br>
+        <input type="button" onclick="submit()" value="제출하기">
+    </form>
+    <br>
+    <form>
+        학과 : <input type="text" name="st_department" list="List">
+        <datalist id="List">
+            <option value="인공지능"></option>
+            <option value="산공"></option>
+            <option value="컴공"></option>
+        </datalist>
+    </form>
+    <br>
+    <form action="/examples/media/action_target.php" method="get">
+        아이디 : <input type="text" name="user_id"><br>
+        비밀번호 : <input type="password" name="user_pw"><br>
+        <input type="hidden" id="gameToken" name="game_token" value="xm234jq">
+        <input type="submit">
+    </form>
+    <br>
+    <article
+    id="electriccars"
+    data-columns="3"
+    data-index-number="12314"
+    data-parent="cars"></article>
+        
+</body>
+</html>

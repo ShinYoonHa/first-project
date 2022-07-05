@@ -1,0 +1,36 @@
+.box1 {
+    display:inline-block;
+    border: 2px dashed black;
+    width: 100px;
+    height: 100px;
+    vertical-align: bottom;
+}
+.box2 {
+    display:inline-block;
+    border: 2px dashed black;
+    width: 100px;
+    height: 120px;
+    vertical-align: bottom;
+}.box3 {
+    display:inline-block;
+    border: 2px dashed black;
+    width: 100px;
+    height: 80px;
+    vertical-align: bottom;
+}
+
+ul li{
+    display:inline-block;
+    width:100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+ul {
+    list-style-type: none;
+}
+ul>li {
+    float: left;
+}
